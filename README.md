@@ -4,7 +4,7 @@ a multi-process linear search using fork(), exec(), and wait() system calls
 To use the multi-search
 ./multi-search 'FILE NAME' 'KEY' 'NUMBER OF PROCESSES'
   
-'FILE NAME' is the name of the file containing the strings 
+'FILE NAME' is the name of the file containing the strings
 'NUMBER OF PROCESSES' is the number of child processes
 'KEY' is the string to search for
 
