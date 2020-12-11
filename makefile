@@ -10,8 +10,8 @@ PART3 = multi-search
 
 all: $(PART3)
 
-$(PART3): Assignment1Part3.cpp
-	$(CC) $(CFLAGS) -o $(PART3) Assignment1Part3.cpp
+$(PART3): multi-search.cpp
+	$(CC) $(CFLAGS) -o $(PART3) multi-search.cpp
 	./$(PART3) strings.txt abcd 10
 
 clean:
