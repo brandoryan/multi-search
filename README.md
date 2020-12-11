@@ -2,11 +2,11 @@
 a multi-process linear search using fork(), exec(), and wait() system calls
 
 To use the multi-search
-./multi-search 'FILE NAME' 'KEY' 'NUMBER OF PROCESSES'
+./multi-search 'FILE NAME' 'KEY' 'NUMBER OF PROCESSES'<br />
   
-'FILE NAME' is the name of the file containing the strings
-'NUMBER OF PROCESSES' is the number of child processes
-'KEY' is the string to search for
+'FILE NAME' is the name of the file containing the strings<br />
+'NUMBER OF PROCESSES' is the number of child processes<br />
+'KEY' is the string to search for<br />
 
 For example:
 ./multi-search strings.txt abcd 10 
